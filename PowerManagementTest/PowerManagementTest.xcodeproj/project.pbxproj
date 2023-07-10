@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5760C1A22A4C561D0030706F /* PowerManagementTestUserClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5760C1A02A4C561D0030706F /* PowerManagementTestUserClient.cpp */; };
+		5760C1A32A4C561D0030706F /* PowerManagementTestUserClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5760C1A12A4C561D0030706F /* PowerManagementTestUserClient.hpp */; };
+		57BCAFB42A4B694C005D9C29 /* PowerManagementTest.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 57BCAFB32A4B694C005D9C29 /* PowerManagementTest.hpp */; };
+		57BCAFB62A4B694C005D9C29 /* PowerManagementTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57BCAFB52A4B694C005D9C29 /* PowerManagementTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5760C19B2A4C54A40030706F /* TestDriverInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDriverInterface.h; sourceTree = "<group>"; };
+		5760C1A02A4C561D0030706F /* PowerManagementTestUserClient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerManagementTestUserClient.cpp; sourceTree = "<group>"; };
+		5760C1A12A4C561D0030706F /* PowerManagementTestUserClient.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerManagementTestUserClient.hpp; sourceTree = "<group>"; };
+		57BCAFB02A4B694C005D9C29 /* PowerManagementTest.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerManagementTest.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BCAFB32A4B694C005D9C29 /* PowerManagementTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerManagementTest.hpp; sourceTree = "<group>"; };
+		57BCAFB52A4B694C005D9C29 /* PowerManagementTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerManagementTest.cpp; sourceTree = "<group>"; };
+		57BCAFB72A4B694C005D9C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57BCAFAD2A4B694C005D9C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57BCAFA62A4B694C005D9C29 = {
+			isa = PBXGroup;
+			children = (
+				57BCAFB22A4B694C005D9C29 /* PowerManagementTest */,
+				57BCAFB12A4B694C005D9C29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57BCAFB12A4B694C005D9C29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BCAFB02A4B694C005D9C29 /* PowerManagementTest.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57BCAFB22A4B694C005D9C29 /* PowerManagementTest */ = {
+			isa = PBXGroup;
+			children = (
+				57BCAFB32A4B694C005D9C29 /* PowerManagementTest.hpp */,
+				5760C1A02A4C561D0030706F /* PowerManagementTestUserClient.cpp */,
+				5760C1A12A4C561D0030706F /* PowerManagementTestUserClient.hpp */,
+				57BCAFB52A4B694C005D9C29 /* PowerManagementTest.cpp */,
+				5760C19B2A4C54A40030706F /* TestDriverInterface.h */,
+				57BCAFB72A4B694C005D9C29 /* Info.plist */,
+			);
+			path = PowerManagementTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57BCAFAB2A4B694C005D9C29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BCAFB42A4B694C005D9C29 /* PowerManagementTest.hpp in Headers */,
+				5760C1A32A4C561D0030706F /* PowerManagementTestUserClient.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57BCAFAF2A4B694C005D9C29 /* PowerManagementTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BCAFBA2A4B694C005D9C29 /* Build configuration list for PBXNativeTarget "PowerManagementTest" */;
+			buildPhases = (
+				57BCAFAB2A4B694C005D9C29 /* Headers */,
+				57BCAFAC2A4B694C005D9C29 /* Sources */,
+				57BCAFAD2A4B694C005D9C29 /* Frameworks */,
+				57BCAFAE2A4B694C005D9C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerManagementTest;
+			productName = PowerManagementTest;
+			productReference = 57BCAFB02A4B694C005D9C29 /* PowerManagementTest.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57BCAFA72A4B694C005D9C29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					57BCAFAF2A4B694C005D9C29 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 57BCAFAA2A4B694C005D9C29 /* Build configuration list for PBXProject "PowerManagementTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57BCAFA62A4B694C005D9C29;
+			productRefGroup = 57BCAFB12A4B694C005D9C29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57BCAFAF2A4B694C005D9C29 /* PowerManagementTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BCAFAE2A4B694C005D9C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57BCAFAC2A4B694C005D9C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5760C1A22A4C561D0030706F /* PowerManagementTestUserClient.cpp in Sources */,
+				57BCAFB62A4B694C005D9C29 /* PowerManagementTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57BCAFB82A4B694C005D9C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		57BCAFB92A4B694C005D9C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57BCAFBB2A4B694C005D9C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = N7LG422PDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PowerManagementTest/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MODULE_NAME = Bugra.PowerManagementTest;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = Bugra.PowerManagementTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		57BCAFBC2A4B694C005D9C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = N7LG422PDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PowerManagementTest/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MODULE_NAME = Bugra.PowerManagementTest;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = Bugra.PowerManagementTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57BCAFAA2A4B694C005D9C29 /* Build configuration list for PBXProject "PowerManagementTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BCAFB82A4B694C005D9C29 /* Debug */,
+				57BCAFB92A4B694C005D9C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BCAFBA2A4B694C005D9C29 /* Build configuration list for PBXNativeTarget "PowerManagementTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BCAFBB2A4B694C005D9C29 /* Debug */,
+				57BCAFBC2A4B694C005D9C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57BCAFA72A4B694C005D9C29 /* Project object */;
+}

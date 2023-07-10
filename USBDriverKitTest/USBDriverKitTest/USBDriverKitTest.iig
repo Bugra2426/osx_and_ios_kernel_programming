@@ -1,0 +1,30 @@
+//
+//  USBDriverKitTest.iig
+//  USBDriverKitTest
+//
+//  Created by Bugra Karabudak on 25.06.2023.
+//
+
+#ifndef USBDriverKitTest_h
+#define USBDriverKitTest_h
+
+#include <Availability.h>
+#include <DriverKit/IOService.iig>
+
+class OSAction;
+
+class USBDriverKitTest: public IOService
+{
+public:
+    virtual bool init() override;
+    virtual kern_return_t Start(IOService *provider) override;
+    virtual kern_return_t Stop(IOService *provider) override;
+    virtual void free() override;
+protected:
+    virtual void ReadComplete(OSAction *action,
+                              IOReturn status,
+                              uint32_t actualByteCount,
+                              uint64_t completionTimestamp);
+};
+
+#endif /* USBDriverKitTest_h */

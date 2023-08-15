@@ -49,5 +49,5 @@ public:
     virtual IOReturn setWriteCacheState(bool enabled) APPLE_KEXT_OVERRIDE;
     virtual IOReturn doAsyncReadWrite(IOMemoryDescriptor *buffer, UInt64 block, UInt64 nblks, IOStorageAttributes *attributes, IOStorageCompletion *completion) APPLE_KEXT_OVERRIDE;
     
-}
+};
 #endif /* RAMDISKSTORAGEDEVICE_HPP */

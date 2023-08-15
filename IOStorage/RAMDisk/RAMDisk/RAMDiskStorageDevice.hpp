@@ -19,7 +19,7 @@ class RAMDiskStorageDevice : public IOBlockStorageDevice
 private:
     
     UInt64 m_blockCount;
-    com_osxkernel_driver_RAMDisk *m_provider;
+    com_bugratest_driver_RAMDisk *m_provider;
     
 public:
     

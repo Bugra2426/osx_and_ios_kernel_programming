@@ -75,5 +75,5 @@ IOReturn PowerManagementTestUserClient::sReadData(OSObject *target, void *refren
     PowerManagementTestUserClient *me;
     me = (PowerManagementTestUserClient *) target;
     me->m_driver->myReadDataFromDevice();
-    return KERN_SUCCESS;
+    return kIOReturnSuccess;
 }
